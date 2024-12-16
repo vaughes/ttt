@@ -5,7 +5,7 @@ body,
 html {
   height: 100%;
 }
-
+/*  Set a 3x3 grid in the center of a page */
 .grid {
   display: grid;
   width: 100%;
@@ -20,6 +20,8 @@ html {
   height: 100px;
   background-color: pink;
 }
+
+/* Add borders to grid */
 .box-1 {
   border-bottom: 1px solid black;
   border-right: 1px solid black;
